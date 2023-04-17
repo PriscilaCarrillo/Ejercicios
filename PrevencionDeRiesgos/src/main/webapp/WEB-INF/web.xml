@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>SvInicio</display-name>
+    <servlet-name>SvInicio</servlet-name>
+    <servlet-class>controladores.SvInicio</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SvInicio</servlet-name>
+    <url-pattern>/SvInicio</url-pattern>
+  </servlet-mapping>
+  <display-name>PrevencionDeRiesgos</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>SvContacto</display-name>
+    <servlet-name>SvContacto</servlet-name>
+    <servlet-class>controladores.SvContacto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SvContacto</servlet-name>
+    <url-pattern>/SvContacto</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SvCrearCapacitacion</display-name>
+    <servlet-name>SvCrearCapacitacion</servlet-name>
+    <servlet-class>controladores.SvCrearCapacitacion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SvCrearCapacitacion</servlet-name>
+    <url-pattern>/SvCrearCapacitacion</url-pattern>
+  </servlet-mapping>
+</web-app>
